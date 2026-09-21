@@ -8,13 +8,17 @@ Shieldon 官方公开下载仓库，提供部署包、CLI 安装包和校验文�
 
 最低配置：**4 核 CPU、8 GB 内存、100 GB 存储**，安装 Docker Engine 和 Docker Compose v2（Linux x86_64 / ARM64）。
 
-从同一个版本下载 `shieldon.tar.gz` 和 `shieldon.tar.gz.sha256`，在新目录中解压：
+从同一个版本下载 `shieldon.tar.gz` 和 `shieldon.tar.gz.sha256`，自行选择服务器上的安装位置，新建目录并放入这两个文件，然后在该目录执行：
 
 ```sh
+set -eu
 sha256sum -c shieldon.tar.gz.sha256
-tar -xzf shieldon.tar.gz
-cd shieldon
+test ! -e compose.yaml
+test ! -e .env
+test ! -e runtime
+tar -xzf shieldon.tar.gz --strip-components=1
 sha256sum -c SHA256SUMS
+chmod 600 .env
 ```
 
 编辑 `.env` 中的 `SHIELDON_PUBLIC_URL` 和端口，HTTPS 场景设置 `SHIELDON_COOKIE_SECURE=true`，然后启动：
