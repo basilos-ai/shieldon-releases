@@ -4,7 +4,7 @@ Shieldon 官方公开下载仓库，提供桌面客户端、服务器部署包�
 
 ## 桌面客户端下载
 
-**Shieldon Desktop 0.1.0 · 预览版**
+**Shieldon Desktop 0.1.0 · 正式版**
 
 | 系统 | 安装包 |
 | --- | --- |
@@ -14,7 +14,7 @@ Shieldon 官方公开下载仓库，提供桌面客户端、服务器部署包�
 
 [版本说明与 ZIP 下载](https://github.com/basilos-ai/shieldon-releases/releases/tag/desktop-v0.1.0) · [SHA-256 校验文件](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.1.0/desktop-SHA256SUMS)
 
-macOS：打开 DMG，将 Shieldon Desktop 拖入 Applications 后启动。预览包未配置开发者签名和 Apple 公证，首次打开可能需要系统确认。连接前请确认服务器满足版本说明中的后端兼容要求。
+macOS：打开 DMG，将 Shieldon Desktop 拖入 Applications 后启动。当前安装包未配置开发者签名和 Apple 公证，首次打开可能需要系统确认。连接前请确认服务器满足版本说明中的后端兼容要求。
 
 **[下载最新 Web / 服务器版本](https://github.com/basilos-ai/shieldon-releases/releases/latest)** · [查看所有版本](https://github.com/basilos-ai/shieldon-releases/releases)
 
