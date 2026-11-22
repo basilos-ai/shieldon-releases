@@ -1,8 +1,22 @@
 # Shieldon Releases
 
-Shieldon 官方公开下载仓库，提供部署包、CLI 安装包和校验文件，无需 GitHub 账号即可下载。
+Shieldon 官方公开下载仓库，提供桌面客户端、服务器部署包、CLI 安装包和校验文件，无需 GitHub 账号即可下载。
 
-**[下载最新版本](https://github.com/basilos-ai/shieldon-releases/releases/latest)** · [查看所有版本](https://github.com/basilos-ai/shieldon-releases/releases)
+## 桌面客户端下载
+
+**Shieldon Desktop 0.1.0 · 预览版**
+
+| 系统 | 安装包 |
+| --- | --- |
+| Windows x64 | [下载 Windows 安装器（EXE）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.1.0/shieldon-desktop-0.1.0-win32-x64-setup.exe) |
+| macOS Apple Silicon（M 系列芯片） | [下载 Mac 安装器（DMG）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.1.0/shieldon-desktop-0.1.0-darwin-arm64.dmg) |
+| macOS Intel | [下载 Mac 安装器（DMG）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.1.0/shieldon-desktop-0.1.0-darwin-x64.dmg) |
+
+[版本说明与 ZIP 下载](https://github.com/basilos-ai/shieldon-releases/releases/tag/desktop-v0.1.0) · [SHA-256 校验文件](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.1.0/desktop-SHA256SUMS)
+
+macOS：打开 DMG，将 Shieldon Desktop 拖入 Applications 后启动。预览包未配置开发者签名和 Apple 公证，首次打开可能需要系统确认。连接前请确认服务器满足版本说明中的后端兼容要求。
+
+**[下载最新 Web / 服务器版本](https://github.com/basilos-ai/shieldon-releases/releases/latest)** · [查看所有版本](https://github.com/basilos-ai/shieldon-releases/releases)
 
 ## 服务器部署
 
@@ -37,5 +51,5 @@ PostgreSQL、Redis、MinIO 是可选安装组件；可以单独部署或连接�
 
 ---
 
-Public downloads for Shieldon: deployment bundles, CLI installers and checksums.
-Use the [latest release](https://github.com/basilos-ai/shieldon-releases/releases/latest) for installation files. This repository contains distribution information and release assets; application source code is maintained separately.
+Public downloads for Shieldon: desktop apps, deployment bundles, CLI installers and checksums.
+Use the desktop download links above for Windows and macOS, or the [latest Web / server release](https://github.com/basilos-ai/shieldon-releases/releases/latest) for server and CLI installation files. This repository contains distribution information and release assets; application source code is maintained separately.
