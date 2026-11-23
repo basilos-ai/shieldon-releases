@@ -4,17 +4,17 @@ Shieldon 官方公开下载仓库，提供桌面客户端、服务器部署包�
 
 ## 桌面客户端下载
 
-**Shieldon Desktop 0.1.0 · 正式版**
+**Shieldon Desktop 0.1.1 · 正式版**
 
 | 系统 | 安装包 |
 | --- | --- |
-| Windows x64 | [下载 Windows 安装器（EXE）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.1.0/shieldon-desktop-0.1.0-win32-x64-setup.exe) |
-| macOS Apple Silicon（M 系列芯片） | [下载 Mac 安装器（DMG）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.1.0/shieldon-desktop-0.1.0-darwin-arm64.dmg) |
-| macOS Intel | [下载 Mac 安装器（DMG）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.1.0/shieldon-desktop-0.1.0-darwin-x64.dmg) |
+| Windows x64 | [下载 Windows 安装器（EXE）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.1.1/shieldon-desktop-0.1.1-win32-x64-setup.exe) |
+| macOS Apple Silicon（M 系列芯片） | [下载 Mac 安装器（DMG）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.1.1/shieldon-desktop-0.1.1-darwin-arm64.dmg) |
+| macOS Intel | [下载 Mac 安装器（DMG）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.1.1/shieldon-desktop-0.1.1-darwin-x64.dmg) |
 
-[版本说明与 ZIP 下载](https://github.com/basilos-ai/shieldon-releases/releases/tag/desktop-v0.1.0) · [SHA-256 校验文件](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.1.0/desktop-SHA256SUMS)
+[版本说明与 ZIP 下载](https://github.com/basilos-ai/shieldon-releases/releases/tag/desktop-v0.1.1) · [SHA-256 校验文件](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.1.1/desktop-SHA256SUMS)
 
-macOS：打开 DMG，将 Shieldon Desktop 拖入 Applications 后启动。当前安装包未配置开发者签名和 Apple 公证，首次打开可能需要系统确认。连接前请确认服务器满足版本说明中的后端兼容要求。
+macOS：打开 DMG，将 Shieldon Desktop 拖入 Applications 后启动。当前安装包未配置开发者签名和 Apple 公证，首次打开可能需要系统确认。连接前请将服务器升级到 Web/backend v0.6.2（支持客户端 0.1.0–0.1.1）；已有客户端可使用 Switch Endpoint 切换到新的服务器。
 
 **[下载最新 Web / 服务器版本](https://github.com/basilos-ai/shieldon-releases/releases/latest)** · [查看所有版本](https://github.com/basilos-ai/shieldon-releases/releases)
 
