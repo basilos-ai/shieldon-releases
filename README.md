@@ -4,17 +4,17 @@ Shieldon 官方公开下载仓库，提供桌面客户端、服务器部署包�
 
 ## 桌面客户端下载
 
-**Shieldon Desktop 0.2.2 · 正式版**
+**Shieldon Desktop 0.2.3 · 正式版**
 
 | 系统 | 安装包 |
 | --- | --- |
-| Windows x64 | [下载 Windows 安装器（EXE）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.2.2/shieldon-desktop-0.2.2-win32-x64-setup.exe) |
-| macOS Apple Silicon（M 系列芯片） | [下载 Mac 安装器（DMG）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.2.2/shieldon-desktop-0.2.2-darwin-arm64.dmg) |
-| macOS Intel | [下载 Mac 安装器（DMG）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.2.2/shieldon-desktop-0.2.2-darwin-x64.dmg) |
+| Windows x64 | [下载 Windows 安装器（EXE）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.2.3/shieldon-desktop-0.2.3-win32-x64-setup.exe) |
+| macOS Apple Silicon（M 系列芯片） | [下载 Mac 安装器（DMG）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.2.3/shieldon-desktop-0.2.3-darwin-arm64.dmg) |
+| macOS Intel | [下载 Mac 安装器（DMG）](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.2.3/shieldon-desktop-0.2.3-darwin-x64.dmg) |
 
-[版本说明与 ZIP 下载](https://github.com/basilos-ai/shieldon-releases/releases/tag/desktop-v0.2.2) · [SHA-256 校验文件](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.2.2/desktop-SHA256SUMS)
+[版本说明与 ZIP 下载](https://github.com/basilos-ai/shieldon-releases/releases/tag/desktop-v0.2.3) · [SHA-256 校验文件](https://github.com/basilos-ai/shieldon-releases/releases/download/desktop-v0.2.3/desktop-SHA256SUMS)
 
-macOS：打开 DMG，将 Shieldon Desktop 拖入 Applications 后启动。当前安装包未配置开发者签名和 Apple 公证，首次打开可能需要系统确认。连接前请将服务器升级到 Web/backend v0.8.5（支持客户端 0.1.3–0.2.2）；已有客户端可使用 Switch Endpoint 切换到新的服务器。Windows 0.1.2 及以上可通过应用内更新升级；0.1.0/0.1.1 用户需手动安装一次新版，之后可在 Settings → Software update 检查兼容更新。默认英语，支持日语和简体中文。未签名 macOS 暂需手动安装，应用内安装会提示验证失败。
+macOS：打开 DMG，将 Shieldon Desktop 拖入 Applications 后启动。当前安装包未配置开发者签名和 Apple 公证，首次打开可能需要系统确认。连接前请将服务器升级到 Web/backend v0.8.6（支持客户端 0.1.3–0.2.3）；已有客户端可使用 Switch Endpoint 切换到新的服务器。Windows 0.1.2 及以上可通过应用内更新升级；0.1.0/0.1.1 用户需手动安装一次新版，之后可在 Settings → Software update 检查兼容更新。默认英语，支持日语和简体中文。未签名 macOS 暂需手动安装，应用内安装会提示验证失败。
 
 **[下载最新 Web / 服务器版本](https://github.com/basilos-ai/shieldon-releases/releases/latest)** · [查看所有版本](https://github.com/basilos-ai/shieldon-releases/releases)
 
